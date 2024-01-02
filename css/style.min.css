@@ -192,15 +192,18 @@ section.intro {
   section.intro {
     margin-bottom: 150px;
   }
+  .picture {
+    display: none;
+  }
 }
 
 section.intro img.picture {
   max-width: 813px;
   width: 100%;
   position: absolute;
-  right: -50px;
+  right: -2px;
   pointer-events: none;
-  top: -324px;
+  top: -200px;
   z-index: -1;
 }
 
